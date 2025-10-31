@@ -8,9 +8,9 @@ O exercíco contempla a construção física do semáforo, que funciona conforme
 
 ### 2. Montagem física:
 O modelo final do protótipo físico ficou da seguinte forma:
-<p align = "center">Figura X - Modelo físico Semáforo online </p>
+<p align = "center">Figura 1 - Modelo físico Semáforo online </p>
 <div align = "center">
-  <img src = "../assets/aaa">
+  <img src = "../assets/imgIoT.jpg">
  <sup>Fonte: Material produzido pelos autores (2025)</sup>
  </div>
 
