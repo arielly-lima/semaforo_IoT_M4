@@ -6,6 +6,10 @@ O exercíco contempla a construção física do semáforo, que funciona conforme
 - 4 segundos no verde;
 - 2 segundos no amarelo.
 
+#### 1.1. Vídeo demonstrativo
+Link para visualização da montagem física do semáforo e explicação do código: https://drive.google.com/file/d/1TvVoGh27ozY3fUsMvswcRgnLxiz3ojYz/view?usp=sharing
+
+
 ### 2. Montagem física:
 O modelo final do protótipo físico ficou da seguinte forma:
 <p align = "center">Figura 1 - Modelo físico Semáforo online </p>
