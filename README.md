@@ -10,9 +10,10 @@ O exercíco contempla a construção física do semáforo, que funciona conforme
 O modelo final do protótipo físico ficou da seguinte forma:
 <p align = "center">Figura 1 - Modelo físico Semáforo online </p>
 <div align = "center">
-  <img src = "../assets/imgIoT.jpg">
- <sup>Fonte: Material produzido pelos autores (2025)</sup>
- </div>
+<img src = "./assets/img1.jpg"
+<sup>Fonte: Material produzido pelos autores (2025)</sup>
+</div>
+
 
 Para essa construção, foram utilizados os seguintes componentes:
 | **Componente** | **Imagem (referência na foto)** | **Função principal** | **Papel no projeto** | **Detalhes de conexão** |
@@ -44,7 +45,7 @@ void setup() {
 void loop() {
   unsigned long tempoAtual = millis(); //inicialização do tempo atual
 
-  if(estado == 0 && tempoAtual - tempoPassado==6000){
+  if(estado == 0 && tempoAtual - tempoPassado==4000){
     digitalWrite(13, LOW); //apaga verde
     digitalWrite(12, HIGH); //liga amarelo
     tempoPassado = tempoAtual; //define o tempo como sendo o atual
@@ -56,7 +57,7 @@ void loop() {
     tempoPassado = tempoAtual; //define o tempo como sendo o atual
     estado = 2; //estado 2
 
-  }else if(estado == 2 && tempoAtual - tempoPassado == 5000){
+  }else if(estado == 2 && tempoAtual - tempoPassado == 6000){
     digitalWrite(11, LOW); //apaga vermelho
     digitalWrite(13, HIGH); //liga o verde
     tempoPassado = tempoAtual; //define o tempo como o atual
